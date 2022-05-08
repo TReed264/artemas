@@ -1,4 +1,4 @@
-<p>expense works!</p>
+<p></p>
 <div fxLayoutAlign="center center" fxFlexFill>
     <mat-card fxFlex="25">
       <mat-toolbar color="primary">Expense Page</mat-toolbar>
@@ -17,17 +17,17 @@
             <mat-option value="Office Supplies">Office Supplies</mat-option>
             <mat-option value="Building">Building</mat-option>
             <mat-option value="Other">Other</mat-option>
-          </mat-select>        
+          </mat-select>
         </mat-form-field>
 
         <br/>
 
         <mat-form-field appearance="fill" >
-          <mat-label>Amount</mat-label> 
+          <mat-label>Amount</mat-label>
             <input [(ngModel)]="amount" name="amount" value="amount" matInput placeholder="00.00" >
-        </mat-form-field> 
-        
-        
+        </mat-form-field>
+
+
         <br/>
 
         <mat-form-field appearance="fill">
@@ -38,23 +38,24 @@
         <br/>
 
         <mat-form-field appearance="fill" >
-         <mat-label>Description</mat-label> 
+         <mat-label>Description</mat-label>
            <input [(ngModel)]="description" name="description" value="description" matInput placeholder="Ex. Groceries from Schnucks" >
-       </mat-form-field> 
+       </mat-form-field>
 
         <br/>
         <button mat-raised-button (click)="addEntry()">Enter</button>
         <button mat-raised-button (click)="goToPage('home')">Back</button>
         <br/>
 
-      
+
       </form>
     </mat-card>
-    <h3 class="p-3 text-center">Angular - Display a list of Expenses with ngFor</h3>
-    <div class="container box" style="marign-top:10px;">
+    <h3 class="p-3 text-center"></h3>
+    <div class="container box" style="margin-top:10px;">
         <table class="table table-striped">
               <thead>
                 <tr>
+                  <td style="text-align:center"></td>
                     <th>Expense</th>
                     <th>Amount</th>
                     <th>Date</th>

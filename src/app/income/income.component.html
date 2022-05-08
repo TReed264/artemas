@@ -1,9 +1,9 @@
-<p>income works!</p>
+<p></p>
 <div fxLayoutAlign="center center" fxFlexFill>
     <mat-card fxFlex="25">
       <mat-toolbar color="primary">Income Page</mat-toolbar>
       <form fxLayoutAlign= "stretch" fxLayout="column">
-        
+
         <br/>
 
         <mat-form-field appearance="fill">
@@ -14,16 +14,16 @@
             <mat-option value="Jones">Curtis Jones</mat-option>
             <mat-option value="Glaser">Nick Glaser</mat-option>
             <mat-option value="Bilzerian">Dan Bilzerian</mat-option>
-          </mat-select>        
+          </mat-select>
         </mat-form-field>
 
         <br/>
 
         <mat-form-field appearance="fill" >
-          <mat-label>Amount</mat-label> 
+          <mat-label>Amount</mat-label>
             <input [(ngModel)]="amount" name="amount" value="amount" matInput placeholder="00.00" >
         </mat-form-field>
-        
+
         <br/>
 
         <mat-form-field appearance="fill">
@@ -35,16 +35,17 @@
         <button mat-raised-button (click)="addEntry()">Enter</button>
         <button mat-raised-button (click)="goToPage('home')">Back</button>
         <button mat-raised-button (click)="goToPage('view-income')">View Income</button>
-        
+
         <br/>
 
       </form>
     </mat-card>
-    <h3 class="p-3 text-center">Angular - Display a list of Income with ngFor</h3>
-<div class="container box" style="marign-top:10px;">
+    <h3 class="p-3 text-center"></h3>
+<div class="container box" style="margin-top:10px;">
     <table class="table table-striped">
           <thead>
             <tr>
+            <td style="text-align:center"></td>
                 <th>Family</th>
                 <th>Amount</th>
                 <th>Date</th>
